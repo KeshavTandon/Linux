@@ -1,0 +1,22 @@
+Vim is a text editor in the terminal.
+vim file_name-It will open the file if it exists or else it will make the new file and then open it.
+To escape vim-press esc then :q and ENTER
+by default when we will open it will be in normal mode.If we want to write then press i
+After that we can write and if we do ESC+:q! it will not save the file
+If we want to save the file then we have to do :wq
+l->in normal mode we can move cursor right
+h-left
+j-down
+k-top
+dd-in normal mode if we want to delete a line at which cursor is.
+gg-in normal mode,it will make the cursor go on top
+G-in normal mode,it will move to bottom
+w-in normal mode,it will jump 1 word
+2w-it will jump 2 word
+d2w-it will delete while jumping
+:%s/foo/bar/-to replace all occurences of foo with bar
+yy-in normal mode it will copy the whole line
+yw-in normal mode,it will copy the word
+p-pasting the code
+
+vim ~/.vimrc-for enabling changes with theme(12 Vimrc video)

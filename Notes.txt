@@ -1,0 +1,7 @@
+Linux->It is open source unix based operating system.
+
+Unix-It is familty of multitasking,multiuser operating system.It is important as it provides security,reliabilty,stability,scalability.
+
+REPL consoles-Read Evaluate Print Loop
+
+-We can actually see what does particular command do by typing '--help'

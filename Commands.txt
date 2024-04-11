@@ -1,0 +1,44 @@
+pwd-Print working directory-It will print current path on which we are at.
+ls
+cd-change directory
+cd ..->1 folder jump back
+cd ../..-2 folders jump back
+cd ~->from any directory to home directory
+Relative path-> it describes location of file/folder wrt current folder.we have to do jumps wrt current folder.
+Absolute path->we mention location from home directory or root directory.we have to give the whole path.
+~->Home directory
+/->Root directory
+ls -l->provides information about time of creation and all.
+ls -a->show hidden files
+ls -lh->with every file it will also show file size.
+mkdir folder_name-creates a folder
+touch file_name-creates file
+cat file_name-shows the content of the whole file
+rm file_name-deletes a file
+rmdir-deletes a folder
+rm -r-if there is file in the folder and we want to directly delete the folder.
+tail file_name-Print the last few lines of the file.
+tail -n 3 file_name-print last 3 lines of the file.
+head file_name-print first few lines of the file.
+head -n 3 file_name-print first 3 lines of the file.
+echo "Keshav"-it is print statement of terminal.
+echo "Keshav" >file_name-It will add the result of echo in the file.
+ls | grep <string_name>-It will do a substring search.
+ps aux-shows all the files running in the system.
+ls > <file_name>-dump all the data of ls to file.
+ls >> <file_name>-append the data.
+g++ permutation.cpp --std=c++14 -o run && ./run->Compile the file and after that it will create executable file and run.
+cp <file_name> <file_name>-copy content of first file to second.
+mv <file_name> <where to paste path>-cut file from one folder to another.
+tar -cf archive.zip <file1><file2>->It clubs the files.
+tar -zcf archive1.zip <file1><fiel2>-It clubs as well as compresses the files.
+tar -xvzf <file_name>->To look the content of the zip.
+
+
+
+
+
+
+
+
+
